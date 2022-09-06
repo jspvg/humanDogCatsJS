@@ -1,0 +1,57 @@
+Cilj ovog zadatka je konverzija ljudskih (human) godina u godine psa ili mace.
+
+Korisnik unosi godine covjeka. Klikom na dugme `Calculate`, treba da se izracunaju godine psa i mace i to prema slijedecim pravilima:
+
+Cat Years
+- 15 cat years for first year.
+- +9 cat years for second year.
+- +4 cat years for each year after that
+
+Dog Years
+- 15 dog years for first year
+- +9 dog years for second year
+- +5 dog years for each year after that
+
+Nakon sto ste izracunali koliko godina ima maca, a koliko pas, trebate ucitati odgovarajucu sliku iz `images` foldera koja predstavlja starost zivotinje (primjetite image tagove sa idem `catImg` i `dogImg`). Slika treba biti ucitana prema slijedecim pravilima:
+
+Cat
+- Baby cat: godine <= 24
+- Adult cat: godine > 24 i godine <= 44
+- Old cat: godine > 44
+
+Dog
+- Baby dog: godine <= 24
+- Adult dog: godine > 24 i godine <= 59
+- Old dog: godine > 59
+
+Takodjer ne zaboravite odraditi validaciju na samoj formi za unos godina. Klikom na dugme `Calculate` prije samog racunanja, treba provjeriti da li su godine uopste unesene i da li su broj. U `index.html` cete primjetiti `humanYearsError` div. Ovaj div sadrzi u sebi error poruku koju je potrebno prikazati ako godine nisu validne. Poruku mozete prikazati ako joj sklonite klasu `hide`, i obratno sakriti je ako joj dodate klasu `hide`.
+
+//English translation
+
+The goal of this task is to convert human years into dog or cat years.
+
+The user enters the man's age. By clicking on the `Calculate' button, the age of the dog and cat should be calculated according to the following rules:
+
+Cat Years
+- 15 cat years for first year.
+- +9 cat years for second year.
+- +4 cat years for each year after that
+
+Dog Years
+- 15 dog years for the first year
+- +9 dog years for second year
+- +5 dog years for each year after that
+
+After you have calculated how old the cat is and how old the dog is, you need to load the corresponding image from the `images` folder that represents the age of the animal (note the image tags with `catImg` and `dogImg`). The image should be uploaded according to the following rules:
+
+Cat
+- Baby cat: age <= 24
+- Adult cat: age > 24 and age <= 44
+- Old cat: age > 44
+
+Dog
+- Baby dog: age <= 24
+- Adult dog: age > 24 and age <= 59
+- Old dog: age > 59
+
+Also, don't forget to perform validation on the age entry form itself. By clicking on the ``Calculate'' button, before the actual calculation, you should check whether the years have been entered at all and whether they are a number. In `index.html` you will notice `humanYearsError` div. This div contains an error message that needs to be displayed if the years are not valid. You can show the message if you remove the `hide` class from it, and vice versa hide it if you add the `hide` class to it.
